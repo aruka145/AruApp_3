@@ -21,35 +21,31 @@ class MainActivity : AppCompatActivity() {
         // Создаем тестовые данные
         val items = listOf(
             CardItem(
-                R.drawable.real,
-                "Real Madrid",
-                "La Liga"
+                R.drawable.art1,
+                "Суп карри лакса из Куала-Лампура",
+                ""
             ),
             CardItem(
-                R.drawable.chelsea,
-                "Chelsea",
-                "EPL"
+                R.drawable.art2,
+                "Токийские суши",
+                ""
             ),
             CardItem(
-                R.drawable.barsa,
-                "Barcelona",
-                "La Liga"
+                R.drawable.art3,
+                "Говяжий брискет из Техаса",
+                ""
             ),
             CardItem(
-                R.drawable.bayer_m,
-                "Bayern",
-                "Bundesliga"
+                R.drawable.art4,
+                "Сморреброды из Копенгагена",
+                ""
             ),
             CardItem(
-                R.drawable.milan,
-                "Milan",
-                "Serie A"
-            ),
-            CardItem(
-                R.drawable.psg,
-                "PSG",
-                "Liga 1"
+                R.drawable.art5,
+                "Раки из Кайкоры",
+                ""
             )
+
         )
 
         recyclerView.adapter = CardAdapter(items)
